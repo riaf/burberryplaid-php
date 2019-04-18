@@ -1,0 +1,21 @@
+{
+    "name": "riaf/burberryplaid-php",
+    "description": "https://qiita.com/riaf/items/35f2f9e2cf42b5f96eb1",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keisuke SATO",
+            "email": "riaf@me.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-imagick": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BurberryPlaid\\": "src"
+        }
+    }
+}
